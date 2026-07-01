@@ -12,4 +12,4 @@ FROM THSDSistemaCIJ.adm.ECEEntrevistaInicial EI
 LEFT JOIN THSDSistemaCIJ.adm.ECEEntrevistaInicialIdentificacion EII ON EI.FolioId = EII.FolioId 
 LEFT JOIN THSDSistemaCIJ.adm.ECEEntrevistaInicialPaciente EIP ON EI.FolioId = EIP.FolioId 
 LEFT JOIN THSDSistemaCIJ.adm.ECEEntrevistaInicialSustanciasPatron EISP ON EI.FolioId = EISP.FolioId 
-WHERE YEAR(EI.FechaRegistro) = 2025
+WHERE YEAR(EI.FechaRegistro) = 2026
